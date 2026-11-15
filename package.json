@@ -1,6 +1,6 @@
 {
   "name": "pokeclicker-desktop",
-  "version": "1.2.0",
+  "version": "1.2.0+cypherx.1",
   "description": "PokeClicker Desktop",
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
   "build": {
     "productName": "PokéClicker",
     "nsis": {
+      "artifactName": "${name}-setup-${version}.${ext}",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
     },
